@@ -1,0 +1,38 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/coverage
+
+# Ignore uploaded files in development
+/storage/*
+
+/node_modules
+/yarn-error.log
+
+/public
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore Rubymine files
+/.idea/*
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore env file
+.env
+
+# Ignore npm files
+/client/build
+/client/node_modules
+/client/package-lock.json
+package-lock.json
+
+# Ignore heroku temp files
+/vendor/bundle
